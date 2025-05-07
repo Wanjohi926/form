@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1> Radio</h1>
+    <p>Choose your favourite language below</p>
+    <form action="submit" required >
+     <input type="radio" id="HTML" name="fav_language" value="HTML"> 
+     <label for="html">HTML</label><br>
+     <input type="radio" id="CSS" name="fav_language" value="CSS"> 
+     <label for="CSS">CSS</label><br>
+     <input type="radio" id="JavaSCRIPT" name="fav_language" value="JavaSCRIPT"> 
+     <label for="JavaSCRIPT">JavaSCRIPT</label><br>
+    </form>
+</body>
+<body>
+<h1> Checkbox</h1>
+Which of the following are states in the United States?
+    <form>
+        <input type="checkbox" id="state1" name="state1" value="Chicago">
+        <label for="state1"> Chicago</label><br>
+        <input type="checkbox" id="state2" name="state2" value="Berlin">
+        <label for="state2">Berlin</label><br>
+        <input type="checkbox" id="state3" name="state3" value="Virginia">
+        <label for="state3"> Virginia</label><br>
+        <input type="checkbox" id="state4" name="state4" value="Washington DC">
+        <label for="state4"> Washington DC</label><br>
+    </form>
+</body>
+
+<body>
+    <h1> Text Field</h1>
+    <p>please enter your details</p>
+    <form action="submit" min l >
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="fname" maxlength="50" required><br><br>
+        <label for="lastname">Last Name</label>
+        <input type="text" id="lastname" name="lastname" maxlength="50" required><br><br>
+        <label for="email">Your Email</label>
+        <input type="text" id="email" name="email" placeholder="name@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}"><br><br>
+    </form>
+</body>
+
+<body>
+    <form >
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
